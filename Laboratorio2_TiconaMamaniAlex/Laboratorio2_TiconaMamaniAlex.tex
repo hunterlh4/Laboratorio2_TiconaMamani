@@ -1,0 +1,212 @@
+\documentclass[12pt,a4paper]{book}
+ \usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath} 
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry} \begin{document}
+\thispagestyle{empty}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+
+ {\centering
+  
+ \begin{figure}[htb] \centering
+
+\includegraphics[scale=1]{Imagenes/upt.jpg}
+ \end{figure}
+
+
+\large{\bf UNIVERSIDAD PRIVADA DE TACNA}\\ \vspace{0.5cm}
+\large{\bf FACULTAD DE INGENIERIA }\\ \vspace{0.5cm}
+
+\large{\bf Escuela Profesional de Ingeniería de Sistemas } \\ \vspace{1cm}
+
+{\large {\bf Laboratorio 2 - Unidad I }}\\ \vspace{1cm}
+
+{\large {\bf “QLIK Q” }}\\ \vspace{2cm} 
+
+\large Curso: INTELIGENCIA DE NEGOCIOS\\ \vspace{1.5cm}
+\large Docente: Ing. Patrick Cuadros Quiroga \\ \vspace{1.5cm}
+\large Ticona Mamani, Alex Armando (2017057860) \\ \vspace{4cm}
+\vspace{0.5cm} {\Large {\bf \textsc{Tacna - Perú} }}\\ {\Large {\bf \textsc{2019}}} \\}
+
+
+
+\begin{center}
+
+
+
+\section*{ \\ PRACTICA DE LABORATORIO 02: \\ QLIK Q} 
+\end{center}
+
+\section*{Objetivo :}
+Comprender la organización la información de nuestros datos de tal manera que todos los que los vean puedan comprender sus implicaciones y cómo actuar sobre ellos con claridad\\
+
+\section*{crear una app}
+
+\begin{itemize}
+\item Inicie Qlik Sense.
+\item Cree una nueva aplicación.
+\item Nombre la aplicación: " Mi análisis de ventas "
+\item Crear y abrir la aplicación 
+\end{itemize}
+
+
+\begin{center}
+\includegraphics[width=12cm]{Imagenes/img1.jpg} 
+\end{center}
+
+\section*{Cargar datos}
+
+Utilice el mosaico Agregar datos de archivos y otras fuentes para agregar el Datos de Excel a la aplicación (desde el archivo ExerciseData.xlsx ).o Cargue todos los campos de la hoja de cálculo, haciendo clic en Agregar datos botón.
+
+\begin{center}
+\includegraphics[width=12cm]{Imagenes/img2.jpg}
+\end{center}
+
+\begin{center}
+\includegraphics[width=12cm]{Imagenes/img3.jpg}
+\end{center}
+
+\section*{Revisar datos}
+
+\begin{itemize}
+\item  Utilice el menú de acceso rápido para navegar a la vista Administrador de datos , en para obtener más información sobre esta tabla.
+\item Abra la vista del editor de tablas del administrador de datos haciendo clic en el icono a lo largo de la parte inferior de la vista. Haga clic en los campos indicados y vea la tarjeta de resumen para responder a la siguientes preguntas 
+ \end{itemize}
+ 
+ 
+ ¿Cuántos valores distintos de países están presentes en esta tabla? :
+ 21\\
+¿Cuántos valores distintos hay para la categoría de producto?¿campo? :
+ 8\\
+¿Cuántos valores distintos hay para el campo Producto ? :
+74\\
+¿Cuántos valores distintos hay para el campo Fuente ? :
+2\\
+¿Cuáles son esos dos valores? :Existente Cuentas y cuentas nuevas\\
+
+
+\begin{center}
+\includegraphics[width=12cm]{Imagenes/img4.jpg}
+\end{center}
+
+\begin{center}
+\includegraphics[width=12cm]{Imagenes/img5.jpg}
+\end{center}
+\subsection*{Desarrolle una hoja con el 'Asesor de conocimientos'}
+
+
+\begin{itemize}
+\item   Utilice el submenú de navegación de acceso rápido en Analizar> Hoja para seleccionar Insights , haga clic en el botón para
+\item  Ubique el mapa en la lista de gráficos propuestos y Agregar a hoja > Mi nueva hoja .
+\item Utilice el panel de la izquierda para seleccionar (casillas marcadas) los campos: Producto y Precio unitario .
+\item Busque el gráfico de barras titulado: suma (PrecioUnitario) por Producto y Agregar a la hoja > Mi nueva hoja .
+\item Borre los campos ().
+\item Escriba lo siguiente en el campo ' Háganos una pregunta ': ¿Qué país tiene la mayor cantidad? (y enviar pregunta).
+\item Busque el gráfico de barras titulado: suma (Cantidad) por país y Agregar a la hoja > Mi nueva hoja .
+\item Utilice el submenú de navegación de acceso rápido en Analizar> Perspectivas para seleccionar Hoja y evaluar hoja que ha creado. Debería
+ aparecer como ve a continuación:
+
+ \end{itemize}
+
+\begin{center}
+\includegraphics[width=12cm]{Imagenes/img6.jpg}
+\end{center}
+
+\begin{center}
+\includegraphics[width=12cm]{Imagenes/img7.jpg}
+\end{center}
+
+\subsection*{Desarrolle una hoja usando 'Ayuda para sugerencias de gráficos' (continuación)}
+
+\begin{itemize}
+\item Expanda el campo OrderDate en el panel de activos para exponer agrupaciones de fechas derivadas
+\item o	Arrastre y suelte la agrupación YearMonth en un espacio vacío en el área de visualización
+\item Una tabla de resultados tipo gráfico.
+\item Arrastre y suelte el campo Ventas para cubrir toda la tabla que actualmente muestra los valores de año y mes para pedidos.
+\item  Resultados de un gráfico de líneas, debido a el hecho de que una cita dimensión y un campo de los valores de medida han sido suministrado a esta visualización.
+
+\end{itemize}
+
+\begin{center}
+\includegraphics[width=12cm]{Imagenes/img8.jpg}
+\end{center}
+
+\subsection*{Pruebe un tipo de gráfico alternativo sugerido)}
+
+\begin{itemize}
+\item Vuelva al modo Editar hoja y considere sugerencias de gráficos alternativos
+\begin{center}
+\includegraphics[width=12cm]{Imagenes/img9.jpg}
+\end{center}
+\item Tenga en cuenta que el panel de propiedades de los gráficos configurados con ayuda presenta solo configuraciones limitadas
+\item Nos gustaría ajustar el esquema de color aplicado a las formas de los países en el gráfico de mapa, así que cambie el Las sugerencias de gráficos cambian a "desactivado".
+\item Abra la sección Capas del panel de propiedades y haga clic en la capa Área del país .
+\item Abra la sección Colores y localice las opciones de Esquema de colores .
+\item Cambiar la combinación de colores del gradiente secuencial de divergencia de gradiente 
+\item Marque la casilla de verificación Invertir colores 
+
+\begin{center}
+\includegraphics[width=12cm]{Imagenes/img10.jpg}
+\end{center}
+\end{itemize}
+
+\subsection*{Desarrollar una hoja sin ayuda)}
+
+\begin{itemize}
+\item Cree una nueva hoja en la aplicación, titulada " Mis gráficos personalizados ".
+\item Arrastre y suelte objetos desde la sección Gráficos () del panel de activos al área de visualización, y cambiar el tamaño de cada uno, para rellenar una hoja con un Gráfico de barras , tabla , gráfico de sectores , KPI , panel Filtro , y texto y área de la imagen organizada dentro del espacio de visualización como se muestra a continuación:
+
+\end{itemize}
+
+\begin{center}
+\includegraphics[width=12cm]{Imagenes/img11.jpg}
+\end{center}
+
+\begin{center}
+\includegraphics[width=12cm]{Imagenes/img12.jpg}
+\end{center}
+
+\subsection*{Analizar una hoja)}
+
+\begin{itemize}
+\item Seleccione el año 2013 , tome una instantánea del gráfico circular, anote con " 2013 ".
+\item Seleccione el año 2015 y tome una instantánea del gráfico circular, anote con " 2015 ".
+
+\item Seleccione la barra Traje de baño en el gráfico de barras y confirme la selección.
+\item Seleccione la sección Cuentas nuevas en el gráfico circular y confirme la selección.
+\item luego crea un nuevo marcador:
+
+\item Nombre el marcador = " pedidos de 2014 "
+\item Utilice los dos marcadores para alternar entre estos diferentes estados de los datos seleccionados
+
+\end{itemize}
+
+\begin{center}
+\includegraphics[width=12cm]{Imagenes/img13.jpg}
+\end{center}
+
+\begin{center}
+\includegraphics[width=12cm]{Imagenes/img14.jpg}
+\end{center}
+
+\begin{center}
+\includegraphics[width=12cm]{Imagenes/img15.jpg}
+\end{center}
+
+\begin{center}
+\includegraphics[width=12cm]{Imagenes/img16.jpg}
+\end{center}
+
+\begin{center}
+\includegraphics[width=12cm]{Imagenes/img17.jpg}
+\end{center}
+
+
+\end{document}
+
+
